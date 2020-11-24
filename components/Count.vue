@@ -1,11 +1,7 @@
 <template>
-
-
-
     <div>
-        <p class="counter">{{ hour }} <code>Horas</code> {{ minuts }} <code>Minutos</code> {{ seconds }} <code>Segundos</code></p>
+        <p v-bind:style="p" v-on:mouseover="overMessage" v-bind:title="texto" class="counter">{{ clock.hour }} <code>Horas</code> {{ clock.minuts }} <code>Minutos</code> {{ clock.seconds }} <code>Segundos</code></p>
     </div>
-  
 </template>
 
 <script>
@@ -13,36 +9,43 @@ export default {
 
     data() {
         return {
-            hour: 0,
-            minuts: 0,
-            seconds: 0
+            clock: {
+                hour: 0,
+                minuts: 0,
+                seconds: 0
+            },
+            
+            p: {
+                fontSize: 2 + 'rem'
+            },
+
+            texto: "Agora é ",
         }
     },
 
     mounted() {
         setInterval(()=>{
-            this.seconds++
-            if (this.seconds >= 60) {
-                this.seconds = 0
-                this.minuts++
+            this.clock.seconds++
+            if (this.clock.seconds >= 60) {
+                this.clock.seconds = 0
+                this.clock.minuts++
             }
-            if (this.minuts >= 60) {
-                    this.minuts = 0
-                    this.hour++
+            if (this.clock.minuts >= 60) {
+                    this.clock.minuts = 0
+                    this.clock.hour++
             }
-            if (this.hour > 23){
-                this.hour = 0
+            if (this.clock.hour > 23){
+                this.clock.hour = 0
             }
         }, 1000)
-    } 
+    },
+
+    methods: {
+        overMessage() {
+            this.texto = ''
+            this.texto = this.texto + new Date().toLocaleString()
+        }
+    }
 
 }
 </script>
-
-<style>
-
-p.counter {
-    font-size: 3rem;
-}
-
-</style>

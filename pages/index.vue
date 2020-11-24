@@ -8,6 +8,7 @@
       </h1>
       <div class="links">
         <Count />
+        <Posts />
       </div>
     </div>
   </div>
