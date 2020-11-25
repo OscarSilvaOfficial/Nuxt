@@ -1,16 +1,23 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Logs
 logs
 =======
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
 /logs
+<<<<<<< HEAD
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 <<<<<<< HEAD
 lerna-debug.log*
 
@@ -18,6 +25,8 @@ lerna-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 =======
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 
 # Runtime data
 pids
@@ -31,18 +40,25 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.lcov
 =======
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 
 # nyc test coverage
 .nyc_output
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 =======
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -62,17 +78,21 @@ jspm_packages/
 typings/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TypeScript cache
 *.tsbuildinfo
 
 =======
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 # Optional npm cache directory
 .npm
 
 # Optional eslint cache
 .eslintcache
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Microbundle cache
 .rpt2_cache/
@@ -82,6 +102,8 @@ typings/
 
 =======
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 # Optional REPL history
 .node_repl_history
 
@@ -94,13 +116,17 @@ typings/
 # dotenv environment variables file
 .env
 <<<<<<< HEAD
+<<<<<<< HEAD
 .env.test
 =======
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Next.js build output
 .next
@@ -115,6 +141,8 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 =======
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 # next.js build output
 .next
 
@@ -123,12 +151,16 @@ dist
 
 # Nuxt generate
 dist
+<<<<<<< HEAD
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 
 # vuepress build output
 .vuepress/dist
 
 # Serverless directories
+<<<<<<< HEAD
 <<<<<<< HEAD
 .serverless/
 
@@ -141,6 +173,8 @@ dist
 # TernJS port file
 .tern-port
 =======
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
 .serverless
 
 # IDE / Editor
@@ -154,4 +188,7 @@ sw.*
 
 # Vim swap files
 *.swp
+<<<<<<< HEAD
 >>>>>>> 15caa46936e563a0866c79dc9636e6b72cee5065
+=======
+>>>>>>> e1805de5cc84d5fbd142572a62b38f54747e1850
